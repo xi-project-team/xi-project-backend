@@ -1,0 +1,15 @@
+{
+	"Id": "Policy1429142057357",
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "Stmt1429142051590",
+			"Action": [
+				"s3:GetObject"
+			],
+			"Effect": "Allow",
+			"Resource": "arn:aws:s3:::bls-dump/*",
+			"Principal": "*"
+		}
+	]
+}
